@@ -1,6 +1,4 @@
 /* 
-English
-
 Java Abstract Class
 A Java abstract class is a class that can't be instantiated, that means you cannot create
 new instances of an abstract class. It works as a base for subclasses. You should learn about
@@ -28,38 +26,6 @@ Sample Output
 The title is: A tale of two cities
 */
 
-/*
-VietNamese
-
-Một lớp trừu tượng Java là một lớp không thể khởi tạo được. Điều đó có nghĩa là bạn không thể tạo các thực thể mới của một lớp trừu tượng. Nó hoạt động như một cơ sở cho các lớp con. Bạn nên tìm hiểu về Kế thừa Java trước khi thực hiện thử thách này.
-
-Sau đây là một ví dụ về lớp trừu tượng:
-
-abstract class Book{
-    String title;
-    abstract void setTitle(String s);
-    String getTitle(){
-        return title;
-    }
-}
-Nếu bạn cố gắng tạo một thực thể của lớp này như dòng sau, bạn sẽ gặp lỗi:
-
-Book new_novel=new Book(); 
-Bạn phải tạo một lớp khác mở rộng lớp trừu tượng. Sau đó, bạn có thể tạo một thực thể của lớp mới.
-
-Lưu ý rằng phương thức setTitle cũng trừu tượng và không có phần thân. Điều đó có nghĩa là bạn phải triển khai phần thân của phương thức đó trong lớp con.
-
-Trong trình soạn thảo, chúng tôi đã cung cấp lớp Book trừu tượng và lớp Main. Trong lớp Main, chúng tôi đã tạo một thực thể của lớp có tên là MyBook. Nhiệm vụ của bạn là chỉ viết lớp MyBook.
-
-Lớp của bạn không được công khai.
-
-Input mẫu
-
-A tale of two cities
-Output mẫu
-
-The title is: A tale of two cities
-*/
 
 import java.util.*;
 abstract class Book
